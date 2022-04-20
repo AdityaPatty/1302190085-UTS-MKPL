@@ -5,13 +5,10 @@ import java.time.Month;
 import java.util.LinkedList;
 import java.util.List;
 
-public class Employee {
+public class Employee extends DataOrang {
 
 	private String employeeId;
-	private String firstName;
-	private String lastName;
-	private String idNumber;
-	private String address;
+	private DataOrang Data;
 	
 	private int yearJoined;
 	private int monthJoined;
